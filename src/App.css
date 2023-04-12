@@ -1,0 +1,66 @@
+.container {
+  margin: 0 10%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+input{
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 0px 5px;
+}
+input:focus{
+  border: 0px solid grey;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  position: relative;
+}
+
+
+input[type="radio"] {
+  /* Hide the default checkbox */
+  margin: 10px;
+  pointer-events: none;
+}
+
+input[type="checkbox"] {
+  /* Hide the default checkbox */
+  margin: 15px;
+  pointer-events: none;
+  color: #6ab04c;
+  background-color: #6ab04c;
+  border-color: #6ab04c;
+}
+input:checked ~ .checkmark {
+  color: #6ab04c;
+  background-color: #6ab04c;
+  border-color: #6ab04c;
+}
+
+button {
+  position: absolute;
+  margin-right: 0%;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: palevioletred;
+  color: #fff;
+  cursor: pointer;
+  /* add any other styles you need for your button */
+}
+
+.category{
+  background: lightgray;
+}
+
+.category div{
+  background-color: white;
+  padding-left: 2%;
+}
