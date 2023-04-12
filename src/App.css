@@ -23,13 +23,11 @@ input:focus{
 
 
 input[type="radio"] {
-  /* Hide the default checkbox */
   margin: 10px;
   pointer-events: none;
 }
 
 input[type="checkbox"] {
-  /* Hide the default checkbox */
   margin: 15px;
   pointer-events: none;
   color: #6ab04c;
@@ -53,7 +51,6 @@ button {
   background-color: palevioletred;
   color: #fff;
   cursor: pointer;
-  /* add any other styles you need for your button */
 }
 
 .category{
